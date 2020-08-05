@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import '../styles/main.scss';
 
 const Home = (props) => {
@@ -16,24 +17,24 @@ const Home = (props) => {
     <div className="">
       <div className="home-container">
         <div className="box-1">
-          <a className="box-grill" href="/grillz">
+          <NavLink className="box-grill" to="/grillz">
             <h1>Grillz</h1>
-          </a>
+          </NavLink>
         </div>  
         <div className="box-2">
-          <a className="box-chain" href="/chainz">
+          <NavLink className="box-chain" to="/chainz">
             <h1>Chainz</h1>
-          </a>
+          </NavLink>
         </div>  
         <div className="box-3">
-          <a className="box-watch" href="/watchz">
+          <NavLink className="box-watch" to="/watchz">
             <h1>Watchz</h1>
-          </a>
+          </NavLink>
         </div>  
         <div className="box-4">
-          <a className="box-pendant" href="/pendantz">
+          <NavLink className="box-pendant" to="/pendantz">
             <h1>Pendantz</h1>
-          </a>
+          </NavLink>
         </div>  
       </div>
     </div>
