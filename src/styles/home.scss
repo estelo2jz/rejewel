@@ -138,7 +138,11 @@
     align-items: center;
     align-content: center;
     height: 100%;
+    h1 {
+      font-size: 3.7em;
+    }
   }
+
 }
 
 @media only screen and (max-width: 400px) {
