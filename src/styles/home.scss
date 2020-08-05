@@ -19,6 +19,7 @@
     background-color: #525779;
     opacity: 0.5;
     border-radius: 5px;
+    margin: 5px;
   }
 
   .box-1 {
@@ -125,5 +126,28 @@
     -moz-box-shadow: 0 0 10px #ccc;
     -webkit-box-shadow: 0 0 10px #ccc;
     box-shadow: 0 0 10px #ccc;
+  }
+}
+
+
+@media only screen and (max-width: 700px) {
+  .home-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .home-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100%;
   }
 }
