@@ -64,7 +64,7 @@ function Cart({basketProps}) {
       </div>
       <NavLink to="/shipping">
         <div className="use-button">
-          <p>Use This Address</p>
+          <p>Continue to Payment</p>
         </div>
       </NavLink>
     </div>
