@@ -2,37 +2,42 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@import './styles/main.scss';
+
+
+@media(max-width: 500px) {
+  nav h2 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: center;
+  }
+
+  .sm-hide {
+    display: none;
+    width: 200px;
+  }
+
+  .product,
+  .product-header {
+    justify-content: center;
+  }
+
+  .basketTotalContainer {
+    padding-right: 8%;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media(max-width: 1000px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 }

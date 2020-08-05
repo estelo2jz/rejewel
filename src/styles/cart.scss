@@ -1,0 +1,141 @@
+.product-containers {
+  justify-content: space-around;
+  margin: 0 auto;
+  margin-top: 50px;
+  height: 50%;
+
+  .use-button {
+    padding: 5px 5px;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 600;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #09f875;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 3px #999;
+    font-family: 'Bitter', serif;
+    width: 150px;
+    margin: 20px;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+.product-containers ion-icon {
+  font-size: 25px;
+  color: blue;
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.product-header {
+  max-width: 950px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 0 auto;
+  border-bottom: 1px solid lightgray;
+
+}
+
+.product-title {
+  width: 45%;
+}
+
+.price {
+  width: 15%;
+  display: flex;
+  align-items: center;
+  font-family: 'Source Code Pro', monospace !important; 
+}
+
+.quantity {
+  width: 10%;
+  display: flex;
+  align-items: center;
+}
+
+.total {
+  width: 10%;
+  display: flex;
+  align-items: center;
+
+  h4 {
+    margin-left: 20px;
+  }
+}
+
+.total-price {
+  font-family: 'Source Code Pro', monospace;
+}
+
+.test-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.test {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.product {
+  width: 35%;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+  padding: 10px 0;
+}
+.sm-hide {
+  width: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  font-family: 'Bitter', serif;
+}
+
+.product ion-icon {
+  cursor: pointer;
+}
+
+.products {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product img {
+  height: 150px;
+  width: 150px;
+  text-align: left;
+}
+
+.basketTotalContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 10px 0;
+}
+
+.basketTotalTitle {
+  width: 30%;
+  font-family: 'Bitter', serif;
+}
+
+.basketTotal {
+  font-family: 'Source Code Pro', monospace;
+  width: 10%;
+}

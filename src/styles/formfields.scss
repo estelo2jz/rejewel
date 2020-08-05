@@ -1,0 +1,88 @@
+.form-container {
+  text-align: left;
+  .form-input {
+    padding: 20px;
+  }
+
+  .address-flex-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    grid-column-gap: 5px;
+  }
+
+  .back-container {
+    display: flex;
+  }
+
+  .back-button {
+      padding: 5px 20px;
+      font-size: 15px;
+      text-align: center;
+      font-weight: 600;
+      cursor: pointer;
+      outline: none;
+      color: #fff;
+      background-color: #ffbb00;
+      border: none;
+      border-radius: 5px;
+      box-shadow: 0 3px #999;
+      font-family: 'Bitter', serif;
+      width: 100px;
+      margin: 20px;
+  }
+  a {
+    text-decoration: none;
+  }
+
+  .use-button {
+    padding: 5px 5px;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 600;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #09f875;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 3px #999;
+    font-family: 'Bitter', serif;
+    width: 150px;
+    margin: 20px;
+  }
+
+
+}
+
+.shipping-form {
+  &__state {
+    width: 160px;
+  }
+  &__zipcode {
+    width: 160px;
+  }
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  height: 45vh;
+  max-width: 1000px;
+  grid-column-gap: 20px;
+}
+
+input {
+  box-sizing: border-box;
+  height: 39px;
+  width: 326px;
+  border: 1px solid #E6E6E6;
+  border-radius: 20px;
+  color: #333333;
+  padding-left: 10px;
+  font-size: 15px;
+
+  &:focus {
+    outline: none;
+  }
+}
