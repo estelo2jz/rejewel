@@ -29,19 +29,19 @@ export default class Footer extends Component {
           </div>
       
           <div className="footer__links col1">
-            <a href="/#">About Us</a>
-            <a href="/#">Contact</a>
-            <a href="/#">Blog</a>
+            <a href="/about">About Us</a>
+            <a href="/contact">Contact</a>
+            <a href="/blog">Blog</a>
           </div>
       
           <div className="footer__links col2">
-            <a href="/#">Careers</a>
-            <a href="/#">Support</a>
-            <a href="/#">Privacy Policy</a>
+            <a href="/carrers">Careers</a>
+            <a href="/support">Support</a>
+            <a href="/privacy">Privacy Policy</a>
           </div>
       
           <div className="footer__cta">
-            <a href="/#" className="button">Request Custom</a>
+            <a href="/contact" className="button">Request Custom</a>
           </div>
       
           <div className="footer__copyright">

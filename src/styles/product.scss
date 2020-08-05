@@ -1,0 +1,123 @@
+.para-container {
+  padding: 3em;
+  display: grid;
+  grid-gap: 2em;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  .image {
+    height: 600px;
+    img {
+      width: 350px;
+      height: 350px;
+      overflow: hidden;
+      margin: 20px;
+      padding: 20px;
+      box-shadow: 10px 10px 30px rgba(0,0,0,0.1);
+
+    }
+
+    .image-padd:hover {
+      -ms-transform: scale(1.5); /* IE 9 */
+      -webkit-transform: scale(1.5); /* Safari 3-8 */
+      transform: scale(1.1); 
+      overflow: hidden;
+    }
+
+    .jewel-name {
+      font-size: 1.1em;
+      padding: 5px;
+      color: rgb(0, 0, 0);
+      font-family: 'Lora', serif;
+    }
+
+    .jewel-price {
+      font-size: 1em;
+      padding: 10px;
+      color: rgb(0, 0, 0);
+      font-family: 'Source Code Pro', monospace;
+    }
+
+    .addToCart {
+      padding: 5px;
+      border-radius: 5px;
+      color: rgb(255, 255, 255);
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    .addToCart:hover {
+      transition: 0.3s ease-in-out;
+    }
+
+    .button {
+      padding: 5px 20px;
+      font-size: 15px;
+      text-align: center;
+      font-weight: 600;
+      cursor: pointer;
+      outline: none;
+      color: #fff;
+      background-color: #ffbb00;
+      border: none;
+      border-radius: 5px;
+      box-shadow: 0 3px #999;
+      font-family: 'Bitter', serif;
+    }
+    
+    .button:hover {background-color: #b38900}
+    
+    .button:active {
+      background-color: #3e8e41;
+      box-shadow: 0 5px #666;
+      transform: translateY(4px);
+    }
+  }
+}
+
+
+// Hover state
+
+.thecard {
+  position: absulote;
+  height: 400px;
+  transform-style: preserve-3d;
+  transition: all 0.5s ease;
+}
+
+.thecard:hover {
+  transform: rotateY(180deg);
+  left: 0;
+}
+
+.thefront {
+  position: absolute;
+  height: 300px;
+  backface-visibility: hidden;
+  color: #333;
+}
+
+.theback {
+  position: absolute;
+  height: 300px;
+  backface-visibility: hidden;
+  color: #333;
+  margin-left: 40px;
+  transform: rotateY(180deg);
+}
+
+
+@media(max-width: 500px) {
+  .para-container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+
+  .image {
+    font-size: 0.7em;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+}

@@ -23,6 +23,14 @@ function NavBar(props) {
         className="navbar__link"
         to="/"
       >
+        <p>Home</p>
+      </NavLink>
+      <NavLink
+        exact
+        activeClassName="navbar__link--active"
+        className="navbar__link"
+        to="/grillz"
+      >
         <p>Grillz</p>
       </NavLink>
       <NavLink
