@@ -24,6 +24,7 @@ import Carrers from './components/footerPages/Carrers';
 import Contact from './components/footerPages/Contact';
 import Privacy from './components/footerPages/Privacy';
 import Support from './components/footerPages/Support';
+import Complete from './components/Complete';
 
 function App() {
   return (
@@ -35,7 +36,7 @@ function App() {
           <NavBar />
           <Switch>
             <Route exact path="/" component={Home} />
-            <Route path="/grillz" component={Grillz} />
+            <Route exact path="/grillz" component={Grillz} />
             <Route path="/chainz" component={Chainz} />
             <Route path="/watchz" component={Watchz} />
             <Route path="/pendantz" component={Pendantz} />
@@ -48,6 +49,7 @@ function App() {
             <Route path="/contact" component={Contact} />
             <Route path="/privacy" component={Privacy} />
             <Route path="/support" component={Support} />
+            <Route path="/complete" component={Complete} />
             <Route path="/cart" component={Cart} />
           </Switch>
           <Footer />

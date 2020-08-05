@@ -51,11 +51,18 @@ export default class PaymentForm extends Component {
           </div>
           </div>
         </form>
-        <NavLink to="/shipping">
-          <div className="back-button">
-            Back
-          </div>
-        </NavLink>
+        <div className="back-container">
+          <NavLink to="/shipping">
+            <div className="back-button">
+              <p>Back</p>
+            </div>
+          </NavLink>
+          <NavLink to="/complete">
+            <div className="use-button">
+              <p>Complete Order</p>
+            </div>
+          </NavLink>
+        </div>
       </div>
     )
   }

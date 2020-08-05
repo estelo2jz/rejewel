@@ -65,12 +65,12 @@ export default class ShippingForm extends Component {
         <div className="back-container">
           <NavLink to="/cart">
             <div className="back-button">
-              Back
+              <p>Back</p>
             </div>
           </NavLink>
           <NavLink to="/payment">
             <div className="use-button">
-              Use This Address
+              <p>Use This Address</p>
             </div>
           </NavLink>
         </div>

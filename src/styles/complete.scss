@@ -1,0 +1,32 @@
+.complete-container {
+  height: 50vh;
+
+  .complete-summary {
+    height: 50vh;
+  }
+
+
+  .complete-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 10vh;
+
+    p {
+      padding: 5px 20px;
+      font-size: 15px;
+      text-align: center;
+      font-weight: 600;
+      cursor: pointer;
+      outline: none;
+      color: #fff;
+      background-color: #09f875;
+      border: none;
+      border-radius: 5px;
+      box-shadow: 0 3px #999;
+      font-family: 'Bitter', serif;
+      width: 200px;
+    }
+  }
+}

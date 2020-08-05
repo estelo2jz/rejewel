@@ -13,9 +13,20 @@
 
   .back-container {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 10vh;
   }
 
   .back-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 10vh;
+
+    p {
       padding: 5px 20px;
       font-size: 15px;
       text-align: center;
@@ -29,7 +40,7 @@
       box-shadow: 0 3px #999;
       font-family: 'Bitter', serif;
       width: 100px;
-      margin: 20px;
+    }
   }
   a {
     text-decoration: none;
@@ -50,6 +61,10 @@
     font-family: 'Bitter', serif;
     width: 150px;
     margin: 20px;
+
+    p {
+
+    }
   }
 
 
