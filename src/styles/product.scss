@@ -3,15 +3,22 @@
   display: grid;
   grid-gap: 2em;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  
   .image {
+    background-color: #ffffff;
     height: 600px;
+    border-radius: 5px;
+    height: 100%;
+    padding: 10px;
+    box-shadow: 10px 10px 30px rgba(0,0,0,0.1);
+
     img {
-      width: 350px;
-      height: 350px;
+      width: 220px;
+      height: 220px;
       overflow: hidden;
+      border-radius: 5px;
+
       margin: 20px;
-      padding: 20px;
-      box-shadow: 10px 10px 30px rgba(0,0,0,0.1);
 
     }
 
@@ -56,17 +63,16 @@
       cursor: pointer;
       outline: none;
       color: #fff;
-      background-color: #ffbb00;
+      background-color: #107a8b;
       border: none;
       border-radius: 5px;
       box-shadow: 0 3px #999;
       font-family: 'Bitter', serif;
     }
-    
-    .button:hover {background-color: #b38900}
+  
     
     .button:active {
-      background-color: #3e8e41;
+      background-color: #3e94a1;
       box-shadow: 0 5px #666;
       transform: translateY(4px);
     }
